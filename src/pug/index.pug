@@ -1,0 +1,105 @@
+extends common/layout
+
+block content 
+    .main_container
+  section.section_1
+    .inside_container
+   
+      .section_info
+        .section_info_title
+          | SHARE YOUR
+          | HOLIDAY DREAM
+        .section_info_text And find the perfect partner to fullfill i
+        .section_info_button Find your holiday partner
+  section.section_2
+    .inside_container
+      .section_2_main
+        .section_2_title How Dreamshare works?
+        .section_2_block
+          .section_2_block_1
+            .block_wraper
+              .section_2_block_1_button Step 1
+              .section_2_block_1_title Sed leo enim, condimentum
+              .section_2_block_1_text
+                | Quisque libero libero, dictum non turpis in, luctus
+                | semper lorem. Donec rhoncus a leo sit amet facilisis.
+          .section_2_block_2.bl
+            .block_wraper
+              .section_2_block_1_button Step 2
+              .section_2_block_1_title Morbi velit risus
+              .section_2_block_1_text
+                | Nulla venenatis tempor dui in molestie. Nulla quis
+                | dictum purus, sit amet porttitor est.
+          .section_2_block_3.bl
+            .block_wraper
+              .section_2_block_1_button Step 3
+              .section_2_block_1_title Sed leo enim, condimentum
+              .section_2_block_1_text
+                | Quisque libero libero, dictum non turpis in, luctus
+                | semper lorem. Donec rhoncus a leo sit amet facilisis.
+  section.section_3
+    .inside_container
+      .section_3_block
+        .section_3_block_title
+          | Meet a partner for your best holiday
+        .section_3_block_photo
+          .photo1.photo1_img
+            .photo1_block1
+              .photo_img.img1
+                img.photo_img(src='./photo/Bitmap.png', alt='Bitmap')
+              .photo1_title Bradley Hunter
+              .photo1_text Based in Chicago. I love playing tennis and loud music.
+          .photo1
+            .photo1_block1
+              .photo_img.img2
+                img.photo_img(src='./photo/Bitmap2.png', alt='Bitmap')
+              .photo1_title Marie Bennett
+              .photo1_text
+                | Currently living in Colorado. Lover of art, languages and
+                | travelling.
+          .photo1
+            .photo1_block1
+              .photo_img.img3
+                img.photo_img(src='./photo/Bitmap23.png', alt='Bitmap')
+              .photo1_title Diana Wells
+              .photo1_text
+                | Living in Athens, Greece. I love black and white classics,
+                | chillout music and green tea.
+          .photo1
+            .photo1_block1
+              .photo_img.img4
+                img.photo_img(src='./photo/Bitmap4.png', alt='Bitmap')
+              .photo1_title Christopher Pierce
+              .photo1_text
+                | Star Wars fanatic. I have a persistent enthusiasm to create new
+                | things.
+      .but
+        button.section_3_button
+          | See other partners
+  section.section_4
+    .inside_container
+      .section_4_block
+        .section_4_block_title
+          | Discover holiday activity ideas
+        .section_4_block_photo
+          .section_4_block_photo1.sport Sports and Activis
+          .section_4_block_photo2.wellness Wellness and Health
+          .section_4_block_photo3.extra
+            | Extreme Sports
+            | and Expeditions
+        .section_4_block_photo.photo_main
+          .section_4_block_photo1.game Games
+          .section_4_block_photo2.culture Culture and Education
+        .section_4_block_photo.photo_main
+          .section_4_block_photo1.enjomet Enjomet and Relaxation
+          .section_4_block_photo2.travel Trevelling
+  section.section_5
+    .inside_container
+      .section_5_info
+        .section_5_title Crate your holiday activity
+        .section_5_text Hi! What are your holiday interests?
+        form.form
+          input.input_type(type='text', placeholder='Enter your insterests')
+          button.form_button(type='submit') Search partners
+
+
